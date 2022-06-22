@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm an undergraduate student majoring in Industrial Engineering and Computer Science and Engineering in Seoul National University. I'm planning to graduate Feb of 2023. Currently, I'm doing my full-time internship in SNU Vision Computing Lab with [Hanbyul Joo](https://jhugestar.github.io).
+I'm an undergraduate student majoring in Industrial Engineering and Computer Science and Engineering in Seoul National University. I'm planning to graduate Feb of 2023. Currently, I'm doing my full-time internship in SNU Visual Computing Lab with [Hanbyul Joo](https://jhugestar.github.io).
 
 
 
