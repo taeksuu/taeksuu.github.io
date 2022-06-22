@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 You can download my CV [here](http://taeksuu.github.io/files/CV.pdf).
 
-Education
+<!-- Education
 ======
 * B.S. in Industrial Engineering and Computer Science and Engineering, Seoul National University, 2017-Expected 2023
 * Korean Minjok Leadershop Academy, 2014-2017
@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 * Summer 2021: Internship
-  * Global Technology Center, Samsung Electronics
+  * Global Technology Center, Samsung Electronics -->
   
 <!-- Skills
 ======
