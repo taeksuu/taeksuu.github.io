@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student majoring in Industrial Engineering and Computer Science and Engineering in Seoul National University. Currently, I am doing my full-time internship in SNU Vision Computing Lab with [Hanbyul Joo] ("https://jhugestar.github.io")
+I am an undergraduate student majoring in Industrial Engineering and Computer Science and Engineering in Seoul National University. Currently, I am doing my full-time internship in SNU Vision Computing Lab with [Hanbyul Joo]. ("https://jhugestar.github.io")
 
 Research Interest
 ======
