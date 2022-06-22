@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Taeksoo Kim"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Taeksoo Kim"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "                Taeksoo Kim"
+  name             : "Taeksoo Kim"
   avatar           : "profile_main.JPG"
   bio              : "Undergraduate student majoring in IE and CSE"
   location         : "Seoul, South Korea"
