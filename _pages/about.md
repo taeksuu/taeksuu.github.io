@@ -13,7 +13,7 @@ I'm an M.S./Ph.D. student advised by [Hanbyul Joo](https://jhugestar.github.io) 
 
 
 
-News
+## News
 ======
 - July 2023 : Our work [NCHO : Unsupervised Learning for Neural 3D Composition of Humans and Objects](https://taeksuu.github.io/ncho/) got accepted in ICCV 2023
 - Mar 2023 : Joined Visual Computing Lab in Seoul National University as an M.S./Ph.D. student
