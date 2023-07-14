@@ -9,10 +9,11 @@ redirect_from:
 ---
 
 
-I'm an undergraduate student majoring in Industrial Engineering and Computer Science and Engineering in Seoul National University. I'm planning to graduate Feb of 2023. Currently, I'm doing my full-time internship in SNU Visual Computing Lab with [Hanbyul Joo](https://jhugestar.github.io).
+I'm an M.S./Ph.D. student advised by [Hanbyul Joo](https://jhugestar.github.io) in Visual Computing Lab of Seoul National University. My current research interests lie in 3D computer vision, especially in generating realistic 3D humans. I received a B.S. in Industrial Engineering and a B.S. in Computer Science and Engineering from Seoul National University. 
 
 
 
-Research Interest
+News
 ======
-With deep interest in the wide applications deep learning algorithms can be used, and its ability to solve the previously unsolved problems, conclusively, I desire to change people’s lifestyle dramatically by forming an AI system that could behave like humans or even surpass us. For this, I am currently working on experiencing various state-of-the-art deep learning models in numerous areas, trying to understand, implement and improve them, hoping one day I could create new models in such areas.
+- July 2023 : Our work [NCHO : Unsupervised Learning for Neural 3D Composition of Humans and Objects](https://taeksuu.github.io/ncho/) got accepted in ICCV 2023
+- Mar 2023 : Joined Visual Computing Lab in Seoul National University as an M.S./Ph.D. student
