@@ -22,7 +22,7 @@ Hi, I'm Taeksoo! I'm an M.S./Ph.D. student advised by [Hanbyul Joo](https://jhug
 <table cellspacing="15">
 	<tr>
 		<td width="30%">
-		<img style="max-height: 300px; max-width: 250px;" src="https://taeksuu.github.io/ncho/static/images/teaser.png" border="0">
+		<img style="max-height: 300px; max-width: 250px;" src="https://taeksuu.github.io/ncho/static/images/teaser1.png" border="0">
 		</td>
 
 		<td>
@@ -33,6 +33,7 @@ Hi, I'm Taeksoo! I'm an M.S./Ph.D. student advised by [Hanbyul Joo](https://jhug
 			In <em> ICCV 2023 </em><br>
 			<a href="https://arxiv.org/abs/2305.14345">[arxiv]</a>
 			<a href="https://taeksuu.github.io/ncho/">[Project Page]</a>
+   			<a href="https://github.com/taeksuu/ncho">[Code & Data]</a>
 		</td>
 	</tr>
  </table>
