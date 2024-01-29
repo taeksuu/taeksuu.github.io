@@ -57,47 +57,43 @@
 
 
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+    <tr onmouseout="gala_stop()" onmouseover="gala_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
-          <source src="images/smerf.mp4" type="video/mp4">
+          <div class="two" id='gala_image'><video  width=100% muted autoplay loop>
+          <source src="images/gala/video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/smerf.jpg' width=100%>
+          <img src='images/gala/image.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
+          function gala_start() {
+            document.getElementById('gala_image').style.opacity = "1";
           }
 
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
+          function gala_stop() {
+            document.getElementById('gala_image').style.opacity = "0";
           }
-          smerf_stop()
+          gala_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://smerf-3d.github.io/">
-          <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+        <a href="https://snuvclab.github.io/gala/">
+          <span class="papertitle">GALA: Generating Animatable Layered Assets from a Single Scan</span>
         </a>
         <br>
-		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-		<a href="https://phogzone.com/">Peter Hedman*</a>,
-		<a href="https://creiser.github.io/">Christian Reiser</a>,
-		<a href="">Peter Zhizhin</a>,
-		<a href="">Jean-François Thibert</a>,
-        <a href="https://lucic.ai/">Mario Lučić</a>,
-        <a href="https://szeliski.org/">Richard Szeliski</a>,
-		<strong>Jonathan T. Barron</strong>
+        <strong>Taeksoo Kim</strong>,
+        <a href="https://bjkim95.github.io/">Byungjun Kim</a>,
+        <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>,
+        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
         <br>
-        <em>arXiv</em>, 2023
+        <em>arXiv</em>, 2024
         <br>
-        <a href="https://smerf-3d.github.io/">project page</a>
+        <a href="https://snuvclab.github.io/gala/">project page</a>
         /
-        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
+        <a href="https://github.com/snuvclab/GALA">code</a>
         /
-        <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
+        <a href="https://arxiv.org/abs/2401.12979">arXiv</a>
         <p></p>
         <p>
         Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
@@ -132,8 +128,9 @@
         </a>
         <br>
         <strong>Taeksoo Kim</strong>,
-        <a href="https://pratulsrinivasan.github.io/">Shunsuke Saito</a>,
-        <a href="http://stephangarbin.com/">Hanbyul Joo</a>
+        <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>,
+        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
+        <br>
         <em>ICCV</em>, 2023
         <br>
         <a href="https://taeksuu.github.io/ncho">project page</a>
