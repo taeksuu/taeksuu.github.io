@@ -22,14 +22,14 @@
                 <p class="name" style="text-align: center;">
                   Taeksoo Kim
                 </p>
-                <p>I'm a 2nd year MS/PhD student at Seoul National University, where I am advised by Prof. <a href="https://jhugestar.github.io/">Hanbyul Joo</a>. 
+                <p>I'm a 3rd year MS/PhD student at Seoul National University, where I am advised by Prof. <a href="https://jhugestar.github.io/">Hanbyul Joo</a>. 
                   My current research interests lie in 3D computer vision, especially in generating realistic compositional 3D humans.
                   I received a B.S in Industrial Engineering and a B.S. in Computer Science and Engineering from Seoul National University.
                 </p>
 
                 <p style="text-align:center">
                   <a href="mailto:taeksu98@snu.ac.kr">Email</a> &nbsp;/&nbsp;
-                  <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <!-- <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp; -->
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?user=XE7pErYAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
 				  <!-- <a href="https://www.threads.net/@jonbarron">Threads</a> &nbsp;/&nbsp; -->
@@ -65,6 +65,49 @@
     <h2>Research</h2>
 
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="tavid_stop()" onmouseover="tavid_start()">
+      <td style="padding:20px;width:35%;vertical-align:middle">
+        <div class="one" style="width: 100%; height: 100%;">
+          <div class="two" id='tavid_image' style="width: 100%; height: 100%;"><video height=100% width=100% muted autoplay loop>
+          <source src="images/tavid/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/tavid/image.png' height=100% width=100%>
+        </div>
+        <script type="text/javascript">
+          function tavid_start() {
+            document.getElementById('tavid_image').style.opacity = "1";
+          }
+
+          function tavid_stop() {
+            document.getElementById('tavid_image').style.opacity = "0";
+          }
+          tavid_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:65%;vertical-align:middle">
+        <a href="https://taeksuu.github.io/tavid/">
+          <span class="papertitle">Target-Aware Video Diffusion Models</span>
+        </a>
+        <br>
+        <strong>Taeksoo Kim</strong>,
+        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
+        <br>
+        <em>arXiv</em>, 2025
+        <br>
+        <a href="https://taeksuu.github.io/tavid/">project page</a>
+        /
+        <a href="https://github.com/taeksuu/tavid">code & data</a>
+        /
+        <a href="https://arxiv.org/abs/2503.18950">arXiv</a>
+        <p></p>
+        <p>
+          Given an input image, our target-aware video diffusion model generates a video in which an actor accurately interacts with the target, specified with its segmentation mask.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="gala_stop()" onmouseover="gala_start()">
       <td style="padding:20px;width:35%;vertical-align:middle">
         <div class="one" style="width: 100%; height: 100%;">
