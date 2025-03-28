@@ -62,31 +62,52 @@
     </ul>
     <br>
 
+    <style>
+      .publication {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+      }
+    
+      .publication-media {
+        flex: 1;
+        max-width: 35%;
+      }
+    
+      .publication-text {
+        flex: 2;
+      }
+    
+      .publication video,
+      .publication img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+      }
+    
+      @media (max-width: 768px) {
+        .publication {
+          flex-direction: column;
+        }
+        .publication-media, .publication-text {
+          max-width: 100%;
+        }
+      }
+    </style>
+    
     <h2>Research</h2>
-
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-    <tr onmouseout="tavid_stop()" onmouseover="tavid_start()">
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <div class="one" style="width: 100%; height: 100%;">
-          <div class="two" id='tavid_image' style="width: 100%; height: 100%;"><video height=100% width=100% muted autoplay loop>
+    
+    <div class="publication">
+      <div class="publication-media">
+        <video muted autoplay loop playsinline>
           <source src="images/tavid/tavid_crf.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/tavid/image.png' height=100% width=100%>
-        </div>
-        <script type="text/javascript">
-          function tavid_start() {
-            document.getElementById('tavid_image').style.opacity = "1";
-          }
-
-          function tavid_stop() {
-            document.getElementById('tavid_image').style.opacity = "0";
-          }
-          tavid_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
+          <img src="images/tavid/image.png" alt="TAVID preview">
+        </video>
+      </div>
+      <div class="publication-text">
         <a href="https://taeksuu.github.io/tavid/">
           <span class="papertitle">Target-Aware Video Diffusion Models</span>
         </a>
@@ -96,39 +117,23 @@
         <br>
         <em>arXiv</em>, 2025
         <br>
-        <a href="https://taeksuu.github.io/tavid/">project page</a>
-        /
-        <a href="https://github.com/taeksuu/tavid">code & data</a>
-        /
+        <a href="https://taeksuu.github.io/tavid/">project page</a> /
+        <a href="https://github.com/taeksuu/tavid">code & data</a> /
         <a href="https://arxiv.org/abs/2503.18950">arXiv</a>
-        <p></p>
         <p>
           Given an input image, our target-aware video diffusion model generates a video in which an actor accurately interacts with the target, specified with its segmentation mask.
         </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="gala_stop()" onmouseover="gala_start()">
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <div class="one" style="width: 100%; height: 100%;">
-          <div class="two" id='gala_image' style="width: 100%; height: 100%;"><video height=100% width=100% muted autoplay loop>
+      </div>
+    </div>
+    
+    <div class="publication">
+      <div class="publication-media">
+        <video muted autoplay loop playsinline>
           <source src="images/gala/video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/gala/image.png' height=100% width=100%>
-        </div>
-        <script type="text/javascript">
-          function gala_start() {
-            document.getElementById('gala_image').style.opacity = "1";
-          }
-
-          function gala_stop() {
-            document.getElementById('gala_image').style.opacity = "0";
-          }
-          gala_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
+          <img src="images/gala/image.png" alt="GALA preview">
+        </video>
+      </div>
+      <div class="publication-text">
         <a href="https://snuvclab.github.io/gala/">
           <span class="papertitle">GALA: Generating Animatable Layered Assets from a Single Scan</span>
         </a>
@@ -140,39 +145,23 @@
         <br>
         <em>CVPR</em>, 2024
         <br>
-        <a href="https://snuvclab.github.io/gala/">project page</a>
-        /
-        <a href="https://github.com/snuvclab/GALA">code</a>
-        /
+        <a href="https://snuvclab.github.io/gala/">project page</a> /
+        <a href="https://github.com/snuvclab/GALA">code</a> /
         <a href="https://arxiv.org/abs/2401.12979">arXiv</a>
-        <p></p>
         <p>
           We present a framework that takes as input a single-layer clothed 3D human mesh and decomposes it into complete multi-layered 3D assets.
         </p>
-      </td>
-    </tr>
-	
-    <tr onmouseout="ncho_stop()" onmouseover="ncho_start()">
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <div class="one" style="width: 100%; height: 100%;">
-          <div class="two" id='ncho_image' style="width: 100%; height: 100%;"><video height=100% width=100% muted autoplay loop>
+      </div>
+    </div>
+    
+    <div class="publication">
+      <div class="publication-media">
+        <video muted autoplay loop playsinline>
           <source src="images/ncho/video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/ncho/image.png' height=100% width=100%>
-        </div>
-        <script type="text/javascript">
-          function ncho_start() {
-            document.getElementById('ncho_image').style.opacity = "1";
-          }
-
-          function ncho_stop() {
-            document.getElementById('ncho_image').style.opacity = "0";
-          }
-          ncho_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
+          <img src="images/ncho/image.png" alt="NCHO preview">
+        </video>
+      </div>
+      <div class="publication-text">
         <a href="https://taeksuu.github.io/ncho/">
           <span class="papertitle">NCHO: Unsupervised Learning for Neural 3D Composition of Humans and Objects</span>
         </a>
@@ -183,17 +172,14 @@
         <br>
         <em>ICCV</em>, 2023
         <br>
-        <a href="https://taeksuu.github.io/ncho">project page</a>
-        /
-        <a href="https://github.com/taeksuu/ncho">code & data</a>
-        /
+        <a href="https://taeksuu.github.io/ncho">project page</a> /
+        <a href="https://github.com/taeksuu/ncho">code & data</a> /
         <a href="https://arxiv.org/abs/2305.14345">arXiv</a>
-        <p></p>
         <p>
-        We present a novel framework for learning a compositional generative model of humans and objects (backpacks, coats, scarves, and more) from real-world 3D scans.
+          We present a novel framework for learning a compositional generative model of humans and objects (backpacks, coats, scarves, and more) from real-world 3D scans.
         </p>
-      </td>
-    </tr>
+      </div>
+    </div>
 	
 	
     <!-- <tr onmouseout="recon_stop()" onmouseover="recon_start()" bgcolor="#ffffd0">
