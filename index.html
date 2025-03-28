@@ -9,6 +9,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <style>
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #000000;
+        --link-color: #007acc;
+        --highlight-color: #ffdf00;
+        --border-color: rgba(0, 0, 0, 0.1);
+      }
+    
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #121212;
+          --text-color: #e0e0e0;
+          --link-color: #66bfff;
+          --highlight-color: #ffe066;
+          --border-color: rgba(255, 255, 255, 0.2);
+        }
+      }
+    
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
+    
+      a {
+        color: var(--link-color);
+      }
+    
+      a:hover {
+        text-decoration: underline;
+      }
+    
+      h2 {
+        color: var(--text-color);
+      }
+    
+      .papertitle {
+        color: var(--text-color);
+      }
+    
+      .publication {
+        border-bottom: 1px solid var(--border-color);
+      }
+    </style>
     
   </head>
 
@@ -182,54 +227,7 @@
     </div>
 	
 	
-    <!-- <tr onmouseout="recon_stop()" onmouseover="recon_start()" bgcolor="#ffffd0">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/recon.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/recon.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function recon_start() {
-            document.getElementById('recon_image').style.opacity = "1";
-          }
-
-          function recon_stop() {
-            document.getElementById('recon_image').style.opacity = "0";
-          }
-          recon_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://reconfusion.github.io/">
-			<span class="papertitle">ReconFusion: 3D Reconstruction with Diffusion Priors</span>
-        </a>
-        <br>
-        <a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu*</a>,
-		<a href="https://bmild.github.io/">Ben Mildenhall*</a>,
-        <a href="https://henzler.github.io/">Philipp Henzler</a>,
-        <a href="https://keunhong.com/">Keunhong Park</a>,
-        <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
-        <a href="https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/">Daniel Watson</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://poolio.github.io/">Ben Poole</a>,
-        <a href="https://holynski.org/">Aleksander Holynski*</a>
-        <br>
-        <em>arXiv</em>, 2023
-        <br>
-        <a href="https://reconfusion.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/">arXiv</a>
-        <p></p>
-        <p>
-        Using a multi-image diffusion model as a regularizer lets you recover high-quality radiance fields from just a handful of images.
-        </p>
-      </td>
-    </tr> -->
+   
 
 
 
