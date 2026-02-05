@@ -1,337 +1,179 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <title>Taeksoo Kim</title>
-
     <meta name="author" content="Taeksoo Kim">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
-    <style>
-      :root {
-        --bg-color: #ffffff;
-        --text-color: #000000;
-        --link-color: #007acc;
-        --highlight-color: #ffdf00;
-        --border-color: rgba(0, 0, 0, 0.1);
-      }
-    
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg-color: #121212;
-          --text-color: #e0e0e0;
-          --link-color: #66bfff;
-          --highlight-color: #ffe066;
-          --border-color: rgba(255, 255, 255, 0.2);
-        }
-      }
-    
-      body {
-        background-color: var(--bg-color);
-        color: var(--text-color);
-      }
-    
-      a {
-        color: var(--link-color);
-      }
-    
-      a:hover {
-        text-decoration: underline;
-      }
-    
-      h2 {
-        color: var(--text-color);
-      }
-    
-      .papertitle {
-        color: var(--text-color);
-      }
-    
-      .publication {
-        border-bottom: 1px solid var(--border-color);
-      }
-    </style>
-    
   </head>
-
   <body>
-    <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Taeksoo Kim
-                </p>
-                <p>Hi, I'm a 3rd year MS/PhD student at Seoul National University, where I am advised by Prof. <a href="https://jhugestar.github.io/">Hanbyul Joo</a>. 
-                  My current research interests lie in simulating the physical world with humans using video generative models.
-                  I received a B.S in Industrial Engineering and a B.S. in Computer Science and Engineering from Seoul National University.
-                </p>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-text">
+          <h1 class="name">Taeksoo Kim</h1>
+          <p class="intro">
+            Hi, I'm a 3rd year MS/PhD student at Seoul National University, where I am advised by Prof.
+            <a href="https://jhugestar.github.io/">Hanbyul Joo</a>.
+            My current research interests lie in simulating the physical world with humans using video generative models.
+            I received a B.S in Industrial Engineering and a B.S. in Computer Science and Engineering from Seoul National University.
+          </p>
+          <p class="now">
+            Now: Building video diffusion models for human interaction and physical world simulation.
+          </p>
+          <nav class="link-row" aria-label="Primary">
+            <a href="mailto:taeksu98@snu.ac.kr">Email</a>
+            <a href="data/CV_260127.pdf">CV</a>
+            <a href="https://scholar.google.com/citations?user=XE7pErYAAAAJ&hl=en">Scholar</a>
+            <a href="https://github.com/taeksuu/">GitHub</a>
+            <a href="https://www.linkedin.com/in/taeksoo-kim-245368351/">LinkedIn</a>
+          </nav>
+        </div>
+        <div class="hero-media">
+          <a href="images/profile_main_resized.jpg">
+            <img
+              src="images/profile_main_resized.jpg"
+              alt="Portrait of Taeksoo Kim"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+            >
+          </a>
+        </div>
+      </header>
 
-                <p style="text-align:center">
-                  <a href="mailto:taeksu98@snu.ac.kr">Email</a> &nbsp;/&nbsp;
-                  <a href="data/CV_260127.pdf">CV</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=XE7pErYAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
-				  <!-- <a href="https://www.threads.net/@jonbarron">Threads</a> &nbsp;/&nbsp; -->
-				  <!-- <a href="https://bsky.app/profile/jonbarron.bsky.social">Bluesky</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://github.com/taeksuu/">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:30%;max-width:30%">
-                <a href="images/profile_main_resized.jpg"><img style="width:100%;max-width:100%;object-fit: cover;" alt="profile photo" src="images/profile_main_resized.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Representative papers are <span class="highlight">highlighted</span>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>-->
+      <section class="section">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><strong>Jan 2026</strong>: Our work, <a href="https://taeksuu.github.io/tavid/">Target-Aware Video Diffusion Models</a>, got accepted in ICLR 2026.</li>
+          <li><strong>Mar 2023</strong>: Joined <a href="https://jhugestar.github.io/">SNU Visual Computing Lab</a>.</li>
+        </ul>
+      </section>
 
-    <h2>News</h2>
-    <ul>
-      <li><b>Jan. 2026</b>: Our work, <a href="https://taeksuu.github.io/tavid/">Target-Aware Video Diffusion Models</a>, got accepted in ICLR 2026!</li> 
-      <li><b>Mar. 2023</b>: Joined <a href="https://jhugestar.github.io/">SNU Visual Computing Lab</a>!</li>
-    </ul>
-    <br>
+      <section class="section">
+        <h2>Research</h2>
 
-    <style>
-      .publication {
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-        gap: 20px;
-        align-items: center;
-      }
-    
-      .publication-media {
-        flex: 1;
-        max-width: 35%;
-      }
-    
-      .publication-text {
-        flex: 2;
-      }
-    
-      .publication video,
-      .publication img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 8px;
-      }
-    
-      @media (max-width: 768px) {
-        .publication {
-          flex-direction: column;
-        }
-        .publication-media, .publication-text {
-          max-width: 100%;
-        }
-      }
-    </style>
-    
-    <h2>Research</h2>
+        <article class="publication">
+          <div class="publication-media">
+            <video muted autoplay loop playsinline preload="metadata" poster="images/dwm/image.png">
+              <source src="images/dwm/video_resized.mp4" type="video/mp4">
+              <img src="images/dwm/image.png" alt="Dexterous World Models preview" loading="lazy" decoding="async">
+            </video>
+          </div>
+          <div class="publication-text">
+            <a href="https://snuvclab.github.io/dwm/" class="paper-title">Dexterous World Models</a>
+            <p class="paper-authors">
+              <a href="https://bjkim95.github.io/">Byungjun Kim*</a>,
+              <strong>Taeksoo Kim*</strong>,
+              <a href="https://junc0ng.github.io/">Junyoung Lee</a>,
+              <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
+            </p>
+            <p class="paper-meta"><span class="venue">arXiv 2025</span></p>
+            <p class="paper-links">
+              <a href="https://snuvclab.github.io/dwm/">project page</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://github.com/snuvclab/dwm">code</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://arxiv.org/abs/2512.17907">arXiv</a>
+            </p>
+            <p class="paper-summary">
+              We present DWM, a scene-action-conditioned video diffusion model that simulates dexterous human interactions in static 3D scenes.
+            </p>
+          </div>
+        </article>
 
-    <div class="publication">
-      <div class="publication-media">
-        <video muted autoplay loop playsinline>
-          <source src="images/dwm/video_resized.mp4" type="video/mp4">
-          <img src="images/dwm/image.png" alt="DWM preview">
-        </video>
-      </div>
-      <div class="publication-text">
-        <a href="https://snuvclab.github.io/dwm/">
-          <span class="papertitle">Dexterous World Models</span>
-        </a>
-        <br>
-        <a href="https://bjkim95.github.io/">Byungjun Kim*</a>,
-        <strong>Taeksoo Kim*</strong>,
-        <a href="https://junc0ng.github.io/">Junyoung Lee</a>,
-        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
-        <br>
-        <em>arXiv</em>, 2025
-        <br>
-        <a href="https://snuvclab.github.io/dwm/">project page</a> /
-        <a href="https://github.com/snuvclab/dwm">code</a> /
-        <a href="https://arxiv.org/abs/2512.17907">arXiv</a>
-        <p>
-          We present DWM, a scene-action-conditioned video diffusion model that simulates dexterous human interactions in static 3D scenes.
-        </p>
-      </div>
+        <article class="publication">
+          <div class="publication-media">
+            <video muted autoplay loop playsinline preload="metadata" poster="images/tavid/image.png">
+              <source src="images/tavid/video.mp4" type="video/mp4">
+              <img src="images/tavid/image.png" alt="Target-Aware Video Diffusion Models preview" loading="lazy" decoding="async">
+            </video>
+          </div>
+          <div class="publication-text">
+            <a href="https://taeksuu.github.io/tavid/" class="paper-title">Target-Aware Video Diffusion Models</a>
+            <p class="paper-authors">
+              <strong>Taeksoo Kim</strong>,
+              <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
+            </p>
+            <p class="paper-meta"><span class="venue">ICLR 2026</span></p>
+            <p class="paper-links">
+              <a href="https://taeksuu.github.io/tavid/">project page</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://github.com/taeksuu/tavid">code &amp; data</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://arxiv.org/abs/2503.18950">arXiv</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://openreview.net/forum?id=311AxWM8FU&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)">openreview</a>
+            </p>
+            <p class="paper-summary">
+              Given an input image, our target-aware video diffusion model generates a video in which an actor accurately interacts with the target, specified with its segmentation mask.
+            </p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-media">
+            <video muted autoplay loop playsinline preload="metadata" poster="images/gala/image.png">
+              <source src="images/gala/video_reversed.mp4" type="video/mp4">
+              <img src="images/gala/image.png" alt="GALA preview" loading="lazy" decoding="async">
+            </video>
+          </div>
+          <div class="publication-text">
+            <a href="https://snuvclab.github.io/gala/" class="paper-title">GALA: Generating Animatable Layered Assets from a Single Scan</a>
+            <p class="paper-authors">
+              <strong>Taeksoo Kim*</strong>,
+              <a href="https://bjkim95.github.io/">Byungjun Kim*</a>,
+              <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>,
+              <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
+            </p>
+            <p class="paper-meta"><span class="venue">CVPR 2024</span></p>
+            <p class="paper-links">
+              <a href="https://snuvclab.github.io/gala/">project page</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://github.com/snuvclab/GALA">code</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://arxiv.org/abs/2401.12979">arXiv</a>
+            </p>
+            <p class="paper-summary">
+              We present a framework that takes as input a single-layer clothed 3D human mesh and decomposes it into complete multi-layered 3D assets.
+            </p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="publication-media">
+            <video muted autoplay loop playsinline preload="metadata" poster="images/ncho/image.png">
+              <source src="images/ncho/video.mp4" type="video/mp4">
+              <img src="images/ncho/image.png" alt="NCHO preview" loading="lazy" decoding="async">
+            </video>
+          </div>
+          <div class="publication-text">
+            <a href="https://taeksuu.github.io/ncho/" class="paper-title">NCHO: Unsupervised Learning for Neural 3D Composition of Humans and Objects</a>
+            <p class="paper-authors">
+              <strong>Taeksoo Kim</strong>,
+              <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>,
+              <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
+            </p>
+            <p class="paper-meta"><span class="venue">ICCV 2023</span></p>
+            <p class="paper-links">
+              <a href="https://taeksuu.github.io/ncho">project page</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://github.com/taeksuu/ncho">code &amp; data</a>
+              <span aria-hidden="true">/</span>
+              <a href="https://arxiv.org/abs/2305.14345">arXiv</a>
+            </p>
+            <p class="paper-summary">
+              We present a novel framework for learning a compositional generative model of humans and objects (backpacks, coats, scarves, and more) from real-world 3D scans.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Visual Computing Lab, Seoul National University</p>
+        <p>Template adapted from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a></p>
+      </footer>
     </div>
-    
-    <div class="publication">
-      <div class="publication-media">
-        <video muted autoplay loop playsinline>
-          <source src="images/tavid/video.mp4" type="video/mp4">
-          <img src="images/tavid/image.png" alt="TAVID preview">
-        </video>
-      </div>
-      <div class="publication-text">
-        <a href="https://taeksuu.github.io/tavid/">
-          <span class="papertitle">Target-Aware Video Diffusion Models</span>
-        </a>
-        <br>
-        <strong>Taeksoo Kim</strong>,
-        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
-        <br>
-        <em>ICLR</em>, 2026
-        <br>
-        <a href="https://taeksuu.github.io/tavid/">project page</a> /
-        <a href="https://github.com/taeksuu/tavid">code & data</a> /
-        <a href="https://arxiv.org/abs/2503.18950">arXiv</a> /
-        <a href="https://openreview.net/forum?id=311AxWM8FU&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)">openreview</a>
-        <p>
-          Given an input image, our target-aware video diffusion model generates a video in which an actor accurately interacts with the target, specified with its segmentation mask.
-        </p>
-      </div>
-    </div>
-    
-    <div class="publication">
-      <div class="publication-media">
-        <video muted autoplay loop playsinline>
-          <source src="images/gala/video_reversed.mp4" type="video/mp4">
-          <img src="images/gala/image.png" alt="GALA preview">
-        </video>
-      </div>
-      <div class="publication-text">
-        <a href="https://snuvclab.github.io/gala/">
-          <span class="papertitle">GALA: Generating Animatable Layered Assets from a Single Scan</span>
-        </a>
-        <br>
-        <strong>Taeksoo Kim*</strong>,
-        <a href="https://bjkim95.github.io/">Byungjun Kim*</a>,
-        <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>,
-        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
-        <br>
-        <em>CVPR</em>, 2024
-        <br>
-        <a href="https://snuvclab.github.io/gala/">project page</a> /
-        <a href="https://github.com/snuvclab/GALA">code</a> /
-        <a href="https://arxiv.org/abs/2401.12979">arXiv</a>
-        <p>
-          We present a framework that takes as input a single-layer clothed 3D human mesh and decomposes it into complete multi-layered 3D assets.
-        </p>
-      </div>
-    </div>
-    
-    <div class="publication">
-      <div class="publication-media">
-        <video muted autoplay loop playsinline>
-          <source src="images/ncho/video.mp4" type="video/mp4">
-          <img src="images/ncho/image.png" alt="NCHO preview">
-        </video>
-      </div>
-      <div class="publication-text">
-        <a href="https://taeksuu.github.io/ncho/">
-          <span class="papertitle">NCHO: Unsupervised Learning for Neural 3D Composition of Humans and Objects</span>
-        </a>
-        <br>
-        <strong>Taeksoo Kim</strong>,
-        <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>,
-        <a href="https://jhugestar.github.io/">Hanbyul Joo</a>
-        <br>
-        <em>ICCV</em>, 2023
-        <br>
-        <a href="https://taeksuu.github.io/ncho">project page</a> /
-        <a href="https://github.com/taeksuu/ncho">code & data</a> /
-        <a href="https://arxiv.org/abs/2305.14345">arXiv</a>
-        <p>
-          We present a novel framework for learning a compositional generative model of humans and objects (backpacks, coats, scarves, and more) from real-world 3D scans.
-        </p>
-      </div>
-    </div>
-	
-	
-   
-
-
-
-
-          </tbody></table>
-
-          
-          <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
-              <td width="75%" valign="center">
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/cs188.jpg" alt="cs188">
-              </td>
-              <td width="75%" valign="center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-            </tr>
-            
-
-            <tr>
-              <td align="center" style="padding:20px;width:25%;vertical-align:middle">
-                <h2>Basically <br> Blog Posts</h2>
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
-                <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
-                <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
-                <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
-              </td>
-            </tr>
-            
-            
-          </tbody></table>-->
-          <br>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:center;font-size:small;">
-                  Template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>
-                </p>
-              </td>
-            </tr>
-          </tbody></table> 
-        </td>
-      </tr>
-    </table>
   </body>
 </html>
