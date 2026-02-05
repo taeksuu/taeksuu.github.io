@@ -152,8 +152,9 @@ a:focus-visible {
 .name {
   margin: 0;
   font-family: 'Fraunces', 'Times New Roman', serif;
-  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-size: clamp(1.9rem, 2.6vw, 2.6rem);
   letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
 .intro,
@@ -225,8 +226,8 @@ h2 {
   width: 100%;
   border-radius: 12px;
   display: block;
-  object-fit: cover;
-  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: var(--bg-alt);
 }
 
 .publication-text {
