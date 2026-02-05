@@ -197,6 +197,10 @@ a:focus-visible {
   vertical-align: -0.1em;
 }
 
+.icon-linkedin {
+  vertical-align: -0.18em;
+}
+
 .hero-media img {
   width: 100%;
   border-radius: 16px;
