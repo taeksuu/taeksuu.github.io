@@ -188,9 +188,10 @@ a:focus-visible {
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   fill: currentColor;
+  flex: 0 0 14px;
 }
 
 .hero-media img {
