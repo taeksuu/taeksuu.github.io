@@ -181,6 +181,18 @@ a:focus-visible {
   background: var(--bg-alt);
 }
 
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
 .hero-media img {
   width: 100%;
   border-radius: 16px;
