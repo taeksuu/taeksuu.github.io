@@ -221,13 +221,24 @@ h2 {
   margin-bottom: 24px;
 }
 
+.publication-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+}
+
 .publication-media video,
 .publication-media img {
-  width: 100%;
-  border-radius: 12px;
   display: block;
+  max-width: 100%;
+  max-height: clamp(200px, 32vw, 280px);
+  width: auto;
+  height: auto;
   object-fit: contain;
-  background: var(--bg-alt);
 }
 
 .publication-text {
