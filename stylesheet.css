@@ -239,6 +239,21 @@ h2 {
   border-radius: 16px;
   box-shadow: var(--shadow);
   margin-bottom: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 50px rgba(15, 15, 15, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication {
+    transition: none;
+  }
+  .publication:hover {
+    transform: none;
+  }
 }
 
 .publication-media {
